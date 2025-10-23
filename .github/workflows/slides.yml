@@ -6,8 +6,11 @@ on:
     paths:
       - "docs/*.md"
 
-on:
   pull_request:
+    paths:
+      - "docs/*.md"
+  
+  update:
     paths:
       - "docs/*.md"
 
