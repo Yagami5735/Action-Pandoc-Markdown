@@ -6,6 +6,11 @@ on:
     paths:
       - "docs/*.md"
 
+on:
+  update:
+    paths:
+      - "docs/*.md"
+
 jobs:
   build-slides:
     runs-on: ubuntu-latest
