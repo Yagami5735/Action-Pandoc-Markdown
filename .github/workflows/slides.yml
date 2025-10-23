@@ -6,10 +6,6 @@ on:
     paths:
       - "docs/*.md"
 
-  pull_request:
-    paths:
-      - "docs/*.md"
-
 jobs:
   build-slides:
     runs-on: ubuntu-latest
