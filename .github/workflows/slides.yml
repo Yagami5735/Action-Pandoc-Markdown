@@ -7,7 +7,7 @@ on:
       - "docs/*.md"
 
 on:
-  update:
+  pull_request:
     paths:
       - "docs/*.md"
 
