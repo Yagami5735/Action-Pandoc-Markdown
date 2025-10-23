@@ -1,2 +1,1 @@
-# Action Pandoc Markdown
-
+<p>Toda vez que dá um push, ele vai executar em um ambiente ubuntu, após isso ele irá instalar o pandoc e o texlive usando o sudo, por fim, executará o comando do pandoc que converterá o arquivo md chamado de "presentation.md" para pdf com o nome de "slides.pdf" (dentro de um artifact chamado de "slides-pdf").</p>
